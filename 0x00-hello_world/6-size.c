@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main- A program that print various size of compute type
- * Return 0 (success)
+ * Return: 0 (success)
  */
-int main (void)
+int main(void)
 {
 	char a;
 	int b;
@@ -22,3 +22,4 @@ sizeof(d));
 printf("size of a float" %lu byte(s)\n",(unsigned long)
 sizeof(f));
 return (0);
+}
