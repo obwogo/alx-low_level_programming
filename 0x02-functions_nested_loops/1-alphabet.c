@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints alphabet in lowercase
+ * print_last_digit - prints last digit
+ * @n: the number
+ * Return: value of the last digit
  */
-void print_alphabet(void)
+int print_last_digit(int n)
 {
-char c = 'a';
-while (c <= 'z')
-{
-_putchar(c);
-c++;
-}
-_putchar('\n');
+int last_digit = n % 10;
+if (last_digit < 0)
+last_digit *= -1;
+_putchar(last_digit + '0');
+return (last_digit);
 }
