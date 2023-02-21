@@ -1,34 +1,25 @@
 #include "main.h"
+
 /**
- * _isalpha - prints the times table from 0 - 9.
- *
- * times_table - prints the times table from 0 - 9.
-(*
- * Return: Nothing.
+ * times_table - print the 9 times table
  */
 void times_table(void)
 {
-int i, j, res;
-for (i = 0; i <= 9; i++)
+int num, mult, prod;
+for (num = 0; num <= 9; num++)
 {
-for (j = 0; j <= 9; j++)
-{
-res = (i * j);
-if (j != 0)
+_putchar('0');
+for (mult = 1; mult <= 9; mult++)
 {
 _putchar(',');
 _putchar(' ');
-}
-if (res <= 10)
-{
+prod = num * mult;
+if (prod <= 9)
 _putchar(' ');
-_putchar((res % 10) + '0');
-}
 else
-{
-_putchar((res / 10) + '0');
-_putchar((res % 10) + '0');
-}
+_putchar((prod / 10) + '0');
+_putchar((prod % 10) + '0');
 }
 _putchar('\n');
-}}
+}
+}
