@@ -1,8 +1,6 @@
 #include "stdio.h"
-
+#include "main.h"
 /**
-  * main - ...
-  * main - Entry point
   *
   * Return: Always (Success)
   * Return: Always 0
