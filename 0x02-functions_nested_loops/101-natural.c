@@ -1,8 +1,5 @@
-/*
- * File: 101-natural.c
- * Auth: Obwogo Tom
- */
 #include <stdio.h>
+
 /**
  * main - Lists all the natural numbers below 1024 (excluded)
  *        that are multiples of 3 or 5.
@@ -11,17 +8,15 @@
  */
 int main(void)
 {
-int i = 0, sum = 0;
-int i, sum = 0;
+	int i, sum = 0;
 
-while (i < 1024)
-for (i = 0; i < 1024; i++)
-{
-if ((i % 3) == 0 || (i % 5) == 0)
-sum += i;
-i++;
-}
+	for (i = 0; i < 1024; i++)
+	{
+		if ((i % 3) == 0 || (i % 5) == 0)
+			sum += i;
+	}
 
-printf("%d\n", sum);
-return (0);
+	printf("%d\n", sum);
+
+	return (0);
 }
