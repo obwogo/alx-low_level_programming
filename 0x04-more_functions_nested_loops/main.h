@@ -14,6 +14,6 @@ void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
 int _putchar(char c);
-long int biggestFactor(long int a)
-bool isPrime(long int n)
+long int biggestFactor(long int a);
+bool isPrime(long int n);
 #endif
