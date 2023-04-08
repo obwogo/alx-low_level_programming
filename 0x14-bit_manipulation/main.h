@@ -1,5 +1,5 @@
-#ifndef ALX_H
-#define ALX_H
+#ifndef MAIN_H
+#define MAIN_H
 
 /*
  * File: main.h
@@ -17,4 +17,4 @@ int clear_bit(unsigned long int *n, unsigned int index);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int get_endianness(void);
 
-#endif /* ALX_H */
+#endif /* MAIN_H */
